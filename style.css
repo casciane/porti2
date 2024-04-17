@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: font1;
+    src: url(KARMEN.ttf);
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    background-color: rgb(114, 100, 82);
+}
+
+.projeto {
+    background-color: #f9f9f9;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.projeto h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 9px 0;
+}
+
+.projeto p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.projeto a {
+    background-color: #333;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.projeto a:hover {
+    background-color: #555;
+}
+
+.contato{
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner pai */
+  height: auto; 
+}
+
+.projeto img{
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner pai */
+    height: auto; 
+}
+
+h1{
+    font-family: font1;
+}
+a{
+    font-family: font1;
+}
+footer{
+    font-family: font1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    
+
+} 
+
+.dark-mode{
+    color: antiquewhite;
+    background-color: black;
+    
+}  */
